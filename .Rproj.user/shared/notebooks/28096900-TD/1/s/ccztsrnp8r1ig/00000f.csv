@@ -1,0 +1,4 @@
+"0","#| layout-ncol: 2"
+"0","#| layout-nrow: 1"
+"0","#| fig-align: center"
+"0","plot(res.pca,choix=""var"")"

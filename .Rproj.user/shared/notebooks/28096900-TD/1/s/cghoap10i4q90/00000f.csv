@@ -1,0 +1,5 @@
+"0","data.cr<-scale(data[,-13],center=TRUE,scale=TRUE)"
+"0","data.dist<-dist(data.cr)"
+"0","data.hca<-hclust(data.dist,method=""ward.D2"")"
+"0","par(mfrow=c(1,2))"
+"0","barplot(rev(data.hca$height)[1:30],main=""Evolution du critére d agrégation - VISA"")"

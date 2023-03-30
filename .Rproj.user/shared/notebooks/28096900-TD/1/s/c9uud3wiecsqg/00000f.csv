@@ -1,0 +1,8 @@
+"0","n <- nrow(data)"
+"0","p <- ncol(data)"
+"0","data[,13] <- as.factor(data[,13])"
+"0","data[,1:12] <- apply(data[,1:12],2,as.numeric)"
+"0","par(mfrow=c(4,3))"
+"0","for (j in 1:(p-1)) {"
+"0","  boxplot(data[,j]~data[,13],main=colnames(data)[j])"
+"0","}"

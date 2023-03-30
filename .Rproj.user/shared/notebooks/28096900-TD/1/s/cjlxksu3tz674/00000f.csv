@@ -1,0 +1,4 @@
+"0","res.model <- data.frame(scores=res.desDA$scores[,1],CARVP=y)"
+"0","ggplot(data=res.model) +"
+"0","  geom_boxplot(aes(x=CARVP, y = scores, fill = CARVP)) +"
+"0","  theme_bw()"

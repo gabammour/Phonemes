@@ -1,0 +1,4 @@
+"0","data <- read.csv2(""visa_EKAP_total.csv"", sep = "","")"
+"0","data <- subset(data, select = -c(1,2,3))"
+"0","data <- cbind(data[,c(12,13,1:10,11)])"
+"0",""

@@ -1,0 +1,3 @@
+"0","mixOmics::plotVar(plsda_1,comp=1:2)"
+"2","Error in loadNamespace(x) : there is no package called ‘mixOmics’
+"

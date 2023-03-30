@@ -1,0 +1,6 @@
+"0","#| layout-ncol: 2"
+"0","#| layout-nrow: 1"
+"0","#| fig-align: center"
+"0","data2 <- data[,-c(1,2)]"
+"0","res.pca <- PCA (data2,scale.unit=TRUE,quali.sup=11,graph=FALSE)"
+"0","res<-barplot(res.pca$eig[,2],xlab=""Dim."",ylab=""Percentage of variance"")"

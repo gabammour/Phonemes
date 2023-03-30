@@ -1,0 +1,2 @@
+"0","K=3"
+"0","A2Rplot(data.hca, k=K, show.labels=TRUE)"

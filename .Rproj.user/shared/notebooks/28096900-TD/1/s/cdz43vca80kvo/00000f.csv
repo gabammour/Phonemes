@@ -1,0 +1,5 @@
+"0","carvp.n <- which(data[intrain,13]==""Cnon"")"
+"0","carvp.o <- which(data[intrain,13]==""Coui"")"
+"0",""
+"0",""
+"0","plot(plsDA.visa$scores[,1],plsDA.visa$scores[,2],type=""n"")"

@@ -1,0 +1,8 @@
+"0","#tester différents error_rates"
+"0","# "
+"0","res.geoDA <- geoDA(X,y,validation=""crossval"")"
+"0","res.geoDA$error_rate #tx erreur en validation croisee"
+"1","[1]"
+"1"," 0.2561692"
+"1","
+"
